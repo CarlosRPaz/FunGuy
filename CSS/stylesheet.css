@@ -1,0 +1,471 @@
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+body {
+	background-color: #E55B5B;
+	background-image: linear-gradient(to bottom, #FFFFFF, #E55B5B);
+	background-repeat: no-repeat;
+	color: #666666;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+	background-color: #00A9A4;
+	color: #FFFFFF;
+	background-image: url(funguy.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+nav {
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 5%;
+	width: 92.5%;
+	text-align: center;
+	background-color: #62CAC6;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+nav a:link{
+	color: #000033;
+}
+
+nav a:visited{
+	color: #344873;
+}
+
+nav a:hover{
+	color: #FFFFFF;
+}
+
+
+main {
+	background-color: #FFFFFF;
+	padding: 1px 20px 20px 20px;
+	display: block;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: Rockwell;
+	font-size: 40px;
+}
+
+h2 {
+	color: #62CAC6;
+	font-family: Georgia, Times New Roman, serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+	color: #000033;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+dt {
+	color: #000033;
+}
+
+.resort {
+	color: #62CAC6;
+	font-style: bold;
+}
+
+#lootbox {
+	background-color: #E6E6E6;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+#store {
+	margin-top: 15px;
+	background-color: #E6E6E6;
+	padding: 15px;
+}
+
+#store table {
+	border: 1px solid #000000;
+	width: 90%;
+	margin-left: 5%;
+	border-spacing: 0;
+	color: black;
+}
+
+#store td, #store th {
+	border: 1px solid #000000;
+	height: 250px;
+}
+
+#homead {
+	background-image: url(comicback.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+	position: relative;
+}
+
+#timeline {
+	width: 100%;
+	background-image: url(space.png);
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#post {
+	background-color: #FFFFFF;
+	width: 80%;
+	margin-left: 10%;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#postimage {
+	background-color: #EAEAEA;
+	height: 400px;
+}
+
+#postdate {
+	position: absolute;
+	right: 2%;
+	top: 405px;
+}
+
+#poster {
+	color: #E55B5B;
+	position: absolute;
+	top: 405px;
+	left: 2%;
+}
+
+#postcontent {
+	color: black;
+	padding: 40px;
+	text-align: left;
+}
+
+#post span {
+	color: #62CAC6;
+}
+
+#whatsnew {
+	background-color: #EAEAEA;
+	height: 275px;
+	position: relative;
+}
+
+#new {
+	background-color: #FFFFFF;
+	color:black;
+	position: absolute;
+	height: 200px;
+	width: 20%;
+}
+
+#articlesection {
+	background-color: #EAEAEA;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 2%;
+	position: relative;
+	height: 650px;
+}
+
+#article {
+	position: absolute;
+	margin: 1%;
+	width: 28%;
+	height: 300px;
+}
+
+#articlehead {
+	position: absolute;
+	top: 70%;
+	width: 94%;
+	height: 28%;
+	background-color: #737373;
+	opacity: .7;
+	color: #FFFFFF;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#articlehead:hover {
+	background-color:black;
+	opacity: 1;
+}
+
+#discoverbar {
+	background-color: #EAEAEA;
+	margin-top: 30px;
+	padding: 2%;
+	position: relative;
+	height: 200px;
+}
+
+#dpost {
+	position: absolute;
+	margin: 1%;
+	width: 15%;
+	height: 170px;
+}
+
+#profilehead {
+	position: relative;
+	background-color: #EAEAEA;
+	width: 100%;
+	height: 400px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#profilecover {
+	position: absolute;
+	width: 100%;
+	height:50%;
+	background-size: 100% 180%;
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+}
+
+#profilehead img {
+	position: absolute;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	top: 30%;
+	left: 43%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+#profile {
+	position: relative;
+	background-color: #EAEAEA;
+	width: 100%;
+	height: auto;
+}
+
+.watchmen {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: Courier New;
+}
+
+.top-right {
+  position: absolute;
+  top: 27%;
+  right: 20%;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+	background-color: #62CAC6;
+}
+
+#funguy {
+	height: 300px;
+	background-image: url(fun-guy.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #000000;
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+@media only screen and (max-width: 64em) {
+	body {
+		margin: 0;
+		background-color: #FFFFFF;
+	}
+	
+	#wrapper {
+		min-width: 0;
+		width: auto;
+		box-shadow: none;
+	}
+	
+	main {
+		margin-left: 0;
+	}
+	
+	nav {
+		float: none;
+		width:auto;
+		text-align: center;
+		padding: .5em;
+	}
+	
+	nav li { 
+	display: inline;
+	padding: .25em .75em;
+	} 
+	
+	#homehero{
+		margin-left: 0;
+		height: 200px;
+	}
+	
+	#yurthero {
+		margin-left: 0;
+		height: 200px;
+	}
+	
+	#trailhero {
+		margin-left: 0;
+		height: 200px;
+	}
+	
+	footer {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 37.5em) {
+	
+	header {
+		padding-top: 1em;
+	}
+	
+	main {
+		padding: .1em 1em;
+		font-size: 90%;
+	}
+	
+	h1 {
+		font-size: 1.5em;
+	}
+	
+	nav {
+		padding: 0;
+	}
+	
+	nav li { 
+		display: block;
+		margin: 0; 
+		border-bottom: 2px solid #330000; 
+	} 
+	
+	nav a { display: block; }
+	
+	#homehero {
+		background-image: none;
+		height: 0;
+	}
+	
+	#yurthero {
+		background-image: none;
+		height: 0;
+	}
+	
+	#trailhero {
+		background-image: none;
+		height: 0;
+	}
+	
+	#mobile {
+		display: inline;
+	}
+	
+	#desktop {
+		display: none;
+	}
+	
+	label {
+		float: none;
+		text-align: left;
+	}
+	
+	input[type="submit"] {
+		margin-left: 0;
+	}
+}
+
+table {
+	border: 1px solid #00A9A4;
+	margin-left: 10%;
+	width: 80%;
+	border-spacing: 0;
+	color: black;
+}
+
+td, th {
+	padding: 5px;
+	border: 1px solid #00A9A4;
+}
+
+td {
+	text-align: center;
+}
+
+tr:nth-of-type (odd) {
+	background-color: #F5FAFC;
+}
+
+.text {
+	text-align: left;
+}
+
+label {
+	float: left;
+	text-align: right;
+	display: block;
+	width: 120px;
+	padding-right: 10px;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 130px;
+}
+
+footer {
+	background-color: #FFFFFF;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 20px;
+}
